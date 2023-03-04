@@ -9,7 +9,7 @@
     }
 
     function onReady(smart)  {
-      console.log('Reached onReady function! Parameter smart: '+smart);
+      console.log('Reached onReady function!', 'Parameter smart: '+smart);
       if (smart.hasOwnProperty('patient')) {
         var patient = smart.patient;
         var pt = patient.read();
