@@ -3,6 +3,7 @@
     var ret = $.Deferred();
 
     function onError() {
+      console.log('Reached onError function!');
       console.log('Loading error', arguments);
       ret.reject();
     }
